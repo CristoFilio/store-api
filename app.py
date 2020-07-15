@@ -13,12 +13,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'longcopmplicatedkey'
 api = Api(app)
 
-# Before processing any requests tell SQLAlchemy to create the database if not
-# available.
-@app.before_first_request
-def create_tables():
-    db.create_all()
-
 
 # jwt is used for user authentication, token creation and token verification.
 jwt = JWT(app, authenticate, identity)  # /auth
