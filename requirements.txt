@@ -1,0 +1,17 @@
+aniso8601        
+click            
+Flask            
+Flask-JWT        
+Flask-RESTful    
+Flask-SQLAlchemy 
+itsdangerous     
+Jinja2           
+MarkupSafe       
+pip              
+PyJWT            
+pytz             
+setuptools       
+six              
+SQLAlchemy       
+Werkzeug         
+uwsgi
